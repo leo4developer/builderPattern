@@ -1,0 +1,7 @@
+<!--sku-panel.wxml-->
+<view style="border: 1rpx solid red; padding: 10rpx;">
+  <image src="{{goods.url}}"></image>
+  <view>名称：{{goods.name}}</view>
+  <view>规格：{{goods.sku}}</view>    
+  <view>价格:{{goods.price}}元<slot /></view>
+</view>

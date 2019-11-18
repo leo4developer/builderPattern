@@ -1,0 +1,6 @@
+<!--pages/member/index.wxml-->
+<view class="container">
+<view>会员</view>
+  <sku-panel goods='{{goods}}' />
+  <goods-card goods='{{goods}}' type='member'/>
+</view>

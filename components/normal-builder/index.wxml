@@ -1,0 +1,3 @@
+<!--components/normal-builder/index.wxml-->
+<sku-panel goods="{{goods}}">
+</sku-panel>

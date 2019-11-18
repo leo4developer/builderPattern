@@ -1,0 +1,5 @@
+<!--components/activity-builder/index.wxml-->
+<sku-panel goods="{{goods}}">
+  <text>（活动价8折:{{goods.price * 0.8}}元）</text>
+</sku-panel>
+

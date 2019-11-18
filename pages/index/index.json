@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "sku-panel": "/components/normal-builder/index",
+    "goods-card": "/components/goods-card/index"
+  }
+}

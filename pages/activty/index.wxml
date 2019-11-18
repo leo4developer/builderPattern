@@ -1,0 +1,6 @@
+<!--pages/activty/index.wxml-->
+<view class="container">
+<view>活动</view>
+  <sku-panel goods='{{goods}}' />
+  <goods-card goods='{{goods}}' type='activity'/>
+</view>

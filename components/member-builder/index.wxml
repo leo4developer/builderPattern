@@ -1,0 +1,4 @@
+<!--components/member-builder/index.wxml-->
+<sku-panel goods="{{goods}}">
+  <text>（会员价7折：{{goods.price * 0.7}}元）</text>
+</sku-panel>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "sku-panel": "/components/activity-builder/index",
+    "goods-card": "/components/goods-card/index"
+  }
+}

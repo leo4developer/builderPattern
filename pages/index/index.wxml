@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <sku-panel goods='{{goods}}' />
+  <goods-card goods='{{goods}}'/>
+</view>

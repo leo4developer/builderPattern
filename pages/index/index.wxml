@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
-  <sku-panel goods='{{goods}}' />
-  <goods-card goods='{{goods}}'/>
+<view wx:for="{{[{name:'a', id:'00'},{name:'b', id:'11'},{name:'c', id:'22'},{name:'d', id:'33'}]}}" wx:key="{{index}}" data-index="{{index}}" data-id="id" data-test="item.id" bindtap="onTap">
+{{item.name }}
 </view>
+<view>{{index}}</view>

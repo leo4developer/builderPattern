@@ -13,13 +13,17 @@ Page({
      price: '10', 
      url: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=448662914,987732293&fm=26&gp=0.jpg', 
      sku:'红瓶100ml洗发液'
-     }
+     },
+     index: 999
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
+  },
+  onTap: function (e) {
+    console.log(e);
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

@@ -1,6 +1,13 @@
 //app.js
+import Student from './classes/student';
+
 App({
   onLaunch: function () {
+
+    const student = new Student();
+    student.name = 'lili';
+    console.log(student);
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
